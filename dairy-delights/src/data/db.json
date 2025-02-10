@@ -1,0 +1,309 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "category": "milk",
+      "productName": "Bottled Milk",
+      "description": "500ml bottle pack",
+      "price": "30",
+      "image": "../dairies/milk.jpg",
+      "nutritionalValue": "rich in calcium. good for bones"
+    },
+    {
+      "id": "2",
+      "category": "milk",
+      "productName": "Milk Bottles",
+      "description": "3 x 500ml bottle pack",
+      "price": "110",
+      "image": "../dairies/milk_bottles.jpg",
+      "nutritionalValue": "rich in calcium. good for bones"
+    },
+    {
+      "id": "3",
+      "category": "milk",
+      "productName": "Milk Tetra Pack",
+      "description": "1 litre bottle pack",
+      "price": "100",
+      "image": "../dairies/milktetra.jpg",
+      "nutritionalValue": "rich in calcium. good for bones"
+    },
+    {
+      "id": "4",
+      "category": "butter",
+      "productName": "Salted Butter",
+      "description": "100gm packet",
+      "price": "50",
+      "image": "../dairies/butter.jpg",
+      "nutritionalValue": "rich in sodium and calcium. good for joints"
+    },
+    {
+      "id": "5",
+      "category": "buttermilk",
+      "productName": "Plain Buttermilk",
+      "description": "500ml pack",
+      "price": "20",
+      "image": "../dairies/buttermilk.jpg",
+      "nutritionalValue": "rich in calcium. low calories. improves metabolism"
+    },
+    {
+      "id": "6",
+      "category": "cheese",
+      "productName": "Cheese Cubes",
+      "description": "pack of 6 cubes",
+      "price": "80",
+      "image": "../dairies/cheese_cubes.jpg",
+      "nutritionalValue": "rich in protien, high calorific, energy booster"
+    },
+    {
+      "id": "7",
+      "category": "cheese",
+      "productName": "Cheese Slice",
+      "description": "pack of 5 slices",
+      "price": "60",
+      "image": "../dairies/cheese_sliced.jpg",
+      "nutritionalValue": "rich in protien, high calorific, energy booster"
+    },
+    {
+      "id": "8",
+      "category": "cheese",
+      "productName": "Cheese Spread",
+      "description": "200gm pack",
+      "price": "500",
+      "image": "../dairies/cheese_spread.jpg",
+      "nutritionalValue": "rich in protien, high calorific, energy booster"
+    },
+    {
+      "id": "9",
+      "category": "milk",
+      "productName": "Cow Milk",
+      "description": "500ml bottle pack",
+      "price": "32",
+      "image": "../dairies/cow_milk.jpg",
+      "nutritionalValue": "rich in calcium. good for bones, lowers bad cholesterol"
+    },
+    {
+      "id": "10",
+      "category": "milk",
+      "productName": "Cow Milk Tetra Pack",
+      "description": "1 litre tetra pack",
+      "price": "60",
+      "image": "../dairies/cow_milk_tetra_pack.jpg",
+      "nutritionalValue": "rich in calcium. good for bones, lowers bad cholesterol"
+    },
+    {
+      "id": "11",
+      "category": "curd",
+      "productName": "Plain Curd",
+      "description": "500gm pack",
+      "price": "25",
+      "image": "../dairies/curd.jpg",
+      "nutritionalValue": "rich in calcium. good for bones. improves metabolism"
+    },
+    {
+      "id": "12",
+      "category": "cream",
+      "productName": "Fresh Cream",
+      "description": "500gm pack",
+      "price": "200",
+      "image": "../dairies/fresh_cream.jpg",
+      "nutritionalValue": "rich in protein and calcium. good for bones"
+    },
+    {
+      "id": "13",
+      "category": "yogurt",
+      "productName": "Fruit Yogurt",
+      "description": "500gm pack",
+      "price": "60",
+      "image": "../dairies/fruit_yogurt.jpg",
+      "nutritionalValue": "high fibre, high protein, rich in calcium"
+    },
+    {
+      "id": "14",
+      "category": "ghee",
+      "productName": "Cow Ghee",
+      "description": "250gm pack",
+      "price": "100",
+      "image": "../dairies/ghee.jpg",
+      "nutritionalValue": "rich in calcium, protein."
+    },
+    {
+      "id": "15",
+      "category": "yogurt",
+      "productName": "Healthy Yogurt",
+      "description": "200gm pack",
+      "price": "500",
+      "image": "../dairies/healthy_yogurt.jpg",
+      "nutritionalValue": "rich in calcium"
+    },
+    {
+      "id": "16",
+      "category": "butter",
+      "productName": "White Butter",
+      "description": "200gm pack",
+      "price": "100",
+      "image": "../dairies/home_made_butter.jpg",
+      "nutritionalValue": "rich in calcium. good for bones, lowers bad cholesterol"
+    },
+    {
+      "id": "17",
+      "category": "paneer",
+      "productName": "Paneer - Cottage Cheese",
+      "description": "200gm pack",
+      "price": "100",
+      "image": "../dairies/paneer.jpg",
+      "nutritionalValue": "rich in protein, calcium. increases good cholesterol"
+    },
+    {
+      "id": "18",
+      "category": "butter",
+      "productName": "Peanut Butter",
+      "description": "250gm pack",
+      "price": "200",
+      "image": "../dairies/peanut_butter.jpg",
+      "nutritionalValue": "rich in protein, good for hair and eyes"
+    },
+    {
+      "id": "19",
+      "category": "yogurt",
+      "productName": "Plain Yogurt - Sweet",
+      "description": "150gm pack",
+      "price": "30",
+      "image": "../dairies/plain_yogurt.jpg",
+      "nutritionalValue": "rich in calcium, fiber and proteins"
+    }
+  ],
+  "orders": [
+    {
+      "id": "c7e0",
+      "Name": "lakshmi",
+      "phone": "7358244765",
+      "deliveryDate": "2025-01-03",
+      "quantity": "1",
+      "address": "5th block,anna nagar,chennai-600056",
+      "item": {
+        "id": "5",
+        "category": "buttermilk",
+        "productName": "Plain Buttermilk",
+        "description": "500ml pack",
+        "price": "20",
+        "image": "../dairies/buttermilk.jpg",
+        "nutritionalValue": "rich in calcium. low calories. improves metabolism"
+      },
+      "totalAmount": 20
+    },
+    {
+      "id": "5f42",
+      "Name": "rameshwari",
+      "phone": "9940249483",
+      "deliveryDate": "2025-01-04",
+      "quantity": "5",
+      "address": "12,brdyudja,54,dhukudlj",
+      "item": {
+        "id": "7",
+        "category": "cheese",
+        "productName": "Cheese Slice",
+        "description": "pack of 5 slices",
+        "price": "60",
+        "image": "../dairies/cheese_sliced.jpg",
+        "nutritionalValue": "rich in protien, high calorific, energy booster"
+      },
+      "totalAmount": 300
+    },
+    {
+      "id": "b781",
+      "Name": "viji",
+      "phone": "9444070344",
+      "deliveryDate": "2025-01-05",
+      "quantity": "4",
+      "address": "6th block,mylapore,chennai-23",
+      "item": {
+        "id": "19",
+        "category": "yogurt",
+        "productName": "Plain Yogurt - Sweet",
+        "description": "150gm pack",
+        "price": "30",
+        "image": "../dairies/plain_yogurt.jpg",
+        "nutritionalValue": "rich in calcium, fiber and proteins"
+      },
+      "totalAmount": 120
+    },
+    {
+      "id": "2cdc",
+      "Name": "ravi",
+      "phone": "9444127573",
+      "deliveryDate": "2025-01-09",
+      "quantity": "3",
+      "address": "5/12, mog west,chennai-87",
+      "item": {
+        "id": "10",
+        "category": "milk",
+        "productName": "Cow Milk Tetra Pack",
+        "description": "1 litre tetra pack",
+        "price": "60",
+        "image": "../dairies/cow_milk_tetra_pack.jpg",
+        "nutritionalValue": "rich in calcium. good for bones, lowers bad cholesterol"
+      },
+      "totalAmount": 180
+    },
+    {
+      "id": "73f1",
+      "Name": "suresh",
+      "phone": "9600031186",
+      "deliveryDate": "2025-01-03",
+      "quantity": "2",
+      "address": "Door.no.6A,Centralia,Navalur",
+      "city": "Chennai",
+      "zipCode": "600104",
+      "item": {
+        "id": "15",
+        "category": "yogurt",
+        "productName": "Healthy Yogurt",
+        "description": "200gm pack",
+        "price": "500",
+        "image": "../dairies/healthy_yogurt.jpg",
+        "nutritionalValue": "rich in calcium"
+      },
+      "totalAmount": 1000
+    },
+    {
+      "id": "c439",
+      "Name": "chander",
+      "phone": "9176033837",
+      "deliveryDate": "2025-01-10",
+      "quantity": "5",
+      "address": "5th block,anna nagar,chennai-600021",
+      "city": "Hyderabad",
+      "zipCode": "800034",
+      "item": {
+        "id": "5",
+        "category": "buttermilk",
+        "productName": "Plain Buttermilk",
+        "description": "500ml pack",
+        "price": "20",
+        "image": "../dairies/buttermilk.jpg",
+        "nutritionalValue": "rich in calcium. low calories. improves metabolism"
+      },
+      "totalAmount": 100
+    },
+    {
+      "id": "9995",
+      "Name": "anjali",
+      "phone": "7358244760",
+      "deliveryDate": "2025-01-01",
+      "quantity": "4",
+      "address": "5th block,anna nagar",
+      "city": "Chennai",
+      "zipCode": "600104",
+      "item": {
+        "id": "18",
+        "category": "butter",
+        "productName": "Peanut Butter",
+        "description": "250gm pack",
+        "price": "200",
+        "image": "../dairies/peanut_butter.jpg",
+        "nutritionalValue": "rich in protein, good for hair and eyes"
+      },
+      "totalAmount": 800
+    }
+  ]
+}
